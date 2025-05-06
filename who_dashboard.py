@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="WHO Mortality Dashboard", layout="wide")
-st.title("🌍 WHO Infant Female Mortality Dashboard")
+st.title("🌍 Infant Mortality Trends Around the World")
+
 
 # 读取并缓存数据
 @st.cache_data
